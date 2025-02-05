@@ -1,0 +1,57 @@
+#container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }
+  
+  ion-icon {
+    color: #fcfcfc;
+    font-size: 19px;
+  }
+  
+  .circleicon {
+    color: #21c064;
+    font-size: 30px;
+  }
+  
+  .titlechats {
+    font-weight: bold;
+    margin: 0px 12px 0px 12px;
+  }
+  
+  ion-toolbar {
+    background-color: #0a0a0a;
+    --border-width: 0;
+    --ion-border-color: transparent;
+  }
+  
+  ion-content, ion-item {
+    --background: #0a0a0a;
+  }
+  
+  ion-content {
+    --padding-bottom: 56px; /* Altura de las pestañas */
+  }
+  

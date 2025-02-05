@@ -8,6 +8,19 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
+  items=[
+    {imgUrl: 'https://ionicframework.com/docs/img/demos/card-media.png'},
+    {imgUrl: 'https://ionicframework.com/docs/img/demos/card-media.png'},
+    {imgUrl: 'https://ionicframework.com/docs/img/demos/card-media.png'},
+    {imgUrl: 'https://ionicframework.com/docs/img/demos/card-media.png'},
+    {imgUrl: 'https://ionicframework.com/docs/img/demos/card-media.png'},
+    {imgUrl: 'https://ionicframework.com/docs/img/demos/card-media.png'},
+    {imgUrl: 'https://ionicframework.com/docs/img/demos/card-media.png'},
+    {imgUrl: 'https://ionicframework.com/docs/img/demos/card-media.png'},
+    {imgUrl: 'https://ionicframework.com/docs/img/demos/card-media.png'},
+    {imgUrl: 'https://ionicframework.com/docs/img/demos/card-media.png'},
+  ]
+
   constructor() {}
 
 }

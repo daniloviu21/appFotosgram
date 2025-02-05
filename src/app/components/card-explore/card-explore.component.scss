@@ -1,0 +1,51 @@
+ion-card {
+    width: 300px;
+  height: 300px;
+  margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+img:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.icontop{
+  position: absolute; top: 10px; right: 10px;
+  font-size: 23px;
+}
+
+.iconstats1{
+  position: absolute; bottom: 50%; right: 30%;
+  font-size: 28px;
+  color: white;
+}
+
+.iconstats2{
+  position: absolute; bottom: 50%; right: 60%;
+  font-size: 28px;
+  color: white;
+}
+
+.itemlikes{
+  position: absolute; bottom: 46%; right: 48%;
+  font-size: 20px;
+  color: white;
+  --background: none  !important;
+}
+
+.itemcomments{
+  position: absolute; bottom: 46%; right: 18%;
+  font-size: 20px;
+  color: white;
+  --background: none  !important;
+}
+
+.card{
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,18 @@
+<ion-card>
+  <div class="card">
+    <img (mouseover)="hovername()" (mouseout)="hovername2()" [src]="imgUrl"/>
+    <ion-icon class="icontop" name="bookmark"></ion-icon>
+    <ion-icon class="iconstats1" [name]="liked ? 'heart' : 'x'"></ion-icon>
+    <ion-item class="itemlikes">
+      <ion-label>
+        <strong>{{likes}}</strong>
+      </ion-label>
+    </ion-item>
+    <ion-icon class="iconstats2" [name]="comment ? 'chatbubble' : 'x'"></ion-icon>
+    <ion-item class="itemcomments">
+      <ion-label>
+        <strong>{{comments}}</strong>
+      </ion-label>
+    </ion-item>
+  </div>
+</ion-card>
